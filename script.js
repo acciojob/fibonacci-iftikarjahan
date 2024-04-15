@@ -9,7 +9,7 @@ function fibonacci(num) {
 		b=ans;
 		it++;
 	}
-	console.log(b);
+	return b;
 }
 
 module.exports = fibonacci;
